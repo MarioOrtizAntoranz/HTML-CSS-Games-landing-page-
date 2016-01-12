@@ -1,0 +1,351 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*/// Reset Over ///*/
+
+*, *:before, *:after {
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+} 
+ body{
+background-color:#1d1433;
+font: 0.8em Arial,sans-serif;
+color:#fff;
+}
+a{
+color:#fff;
+text-decoration:none;
+}
+a:hover, a:focus{
+text-decoration:underline;
+color:#fff;
+}
+h1{
+font-size:2em;
+line-height:4em;
+}
+.main{
+width:1024px;
+height:771px;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+background:url('../images/background.jpg') no-repeat;
+overflow-y:hidden;
+}
+.banner{
+width:100%;
+height:140px;
+border:1px solid red;
+
+}
+.content{
+width:750px;
+height:292px;
+margin: 228px 0px 0px 157px;
+padding: 0;
+}
+.content ul li{
+line-height:1.95em;
+}
+.column-left{
+float:left;
+text-align:left;
+padding:44px 0px 0px 30px;
+width:109px;
+height:auto;
+}
+.column-center{
+margin:0px 0px 0px 9px;
+float:left;
+width:420px;
+height:100%;
+}
+.column-right{
+float:left;
+text-align:left;
+padding:44px 0px 0px 60px;
+width:112px;
+height:auto;
+}
+.slider-thumbs{
+float:left;
+width:72%;
+height:60px;
+margin:28px 0px 0px 145px;
+user-select: none;-o-user-select:none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+}
+.button-play {
+cursor:pointer;
+background:url(../images/buttons-all.png) no-repeat;
+background-position:-70px 0px;
+height: 69px;
+margin-left: 228px;
+margin-top: 241px;
+position: absolute;
+width: 252px;
+z-index: 100;
+}
+.button-play a:focus img{ 
+outline:#0bf4f4 dotted thin;
+}
+.button-left{
+float:left;
+height:40px;
+margin-top:11px;
+width:33px;
+background:url(../images/buttons-all.png) no-repeat;
+background-position: -2px 0px;
+}
+.button-right{
+float:right;
+height:40px;
+margin-top:11px;
+width:33px;
+background:url(../images/buttons-all.png) no-repeat;
+background-position: -35px 0px;
+}
+.button-left:hover,.button-right:hover{
+cursor:pointer;
+}
+.thumbs{
+float:left;
+width:671px;
+height:60px;
+padding-left:0px;
+}
+.thumbs-img{
+float:left;
+width:111px;
+height:60px;
+}
+.thumbs-img:hover{
+border: #0bf4f4 solid thin;
+border-radius:15px; 
+}
+.thumbs-img a:focus img{ 
+outline:#0bf4f4 dotted thin;
+}
+#thumbs-img-id-1{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: 0px 0px;
+}
+#thumbs-img-id-2{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -110px 0px;
+}
+#thumbs-img-id-3{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -220px 0px;
+}
+#thumbs-img-id-4{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -330px 0px;
+}
+#thumbs-img-id-5{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -440px 0px;
+}
+#thumbs-img-id-6{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -550px 0px;
+}
+#thumbs-img-id-7{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -660px 0px;
+}
+#thumbs-img-id-8{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -770px 0px;
+}
+#thumbs-img-id-9{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -880px 0px;
+}
+#thumbs-img-id-10{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -980px 0px;
+}
+#thumbs-img-id-11{
+background:url('../images/thumbs.jpg') no-repeat;
+background-position: -1085px 0px;
+}
+.modalize{
+display:none;
+z-index:300;
+position:absolute;
+width:100%;
+height:100%;
+background: rgb(29, 20, 51);
+background: rgba(29, 20, 51, .8);
+user-select: none;-o-user-select:none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+}
+.window{
+cursor:pointer;
+z-index:300;
+width:800px;
+height:340px;
+margin:150px auto;
+border-radius:25px; 
+border: #026bd9 solid 10px;
+box-shadow: 0px 0px 15px #0bf4f4;
+background-color:#1b1c1e;
+padding:30px 0px 20px 0px;
+background-position: 0px 73px;
+background: linear-gradient(
+	-45deg, 
+    #112627 0%,
+	#112627 5%,
+	#1c2b2c 5%,
+	#1c2b2c 10%, 
+	#112627 10%, 
+    #112627 15%, 
+	#1c2b2c 15%, 
+    #1c2b2c 20%,
+	#112627 20%,
+	#112627 25%,     
+	#1c2b2c 25%, 
+    #1c2b2c 30%, 
+	#112627 30%, 
+    #112627 35%,
+	#1c2b2c 35%,
+    #1c2b2c 40%, 
+	#112627 40%, 
+    #112627 45%, 
+	#1c2b2c 45%, 
+    #1c2b2c 50%,
+	#112627 50%,
+	#112627 55%, 
+	#1c2b2c 55%, 
+    #1c2b2c 60%,
+	#112627 60%,
+	#112627 65%,     
+	#1c2b2c 65%, 
+    #1c2b2c 70%, 
+	#112627 70%, 
+    #112627 75%,
+	#1c2b2c 75%,
+    #1c2b2c 80%, 
+	#112627 80%, 
+    #112627 85%, 
+	#1c2b2c 85%, 
+    #1c2b2c 90%,
+	#112627 90%,
+	#112627 95%,
+	#1c2b2c 100%
+	);
+background-size:800px 500px;
+}
+.window h1 {
+color:#f8a639;
+}
+.window p {
+line-height:1.8em;
+font-size:1.5em;
+margin-bottom: 0.7em;
+}
+.button-instalar{
+margin-left: 32%;
+background:url('../images/buttons-all.png') no-repeat -323px 0px;
+float:left;
+width:257px;
+height:70px
+}
+.legal{
+width:1024px;
+margin: 40px auto;
+}
+.legal a{
+text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
